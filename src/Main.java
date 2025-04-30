@@ -8,43 +8,34 @@ public class Main {
             System.out.println("Эээ ты куда, как танк... в паспорт глянь салага ¯\\_(ツ)_/¯.");
         }
         System.out.println("Задание 2");
-        int t = 5;
-        if (t >= 5) {
-            System.out.println("О! + " + t + " сегодня можно без шапки, на улице тепло!");
+        int t = 6;
+        if (t > 5) {
+            System.out.println("На улице " +t+ " градусов, можно идти без шапки.");
         } else {
-            System.out.println("Можно без шапки, только уши оставь дома");
+            System.out.println("На улице " +t+ " градуса, нужно надеть шапку.");
         }
         System.out.println("Задание 3");
-        int speed = 65;
-        if (speed >= 61 && speed <= 80) {
-            System.out.println("Если Ваша скорость больше 60, но меньше 80 , и равна " + speed + " км/ч., то Вам скорее всего не выпишут штраф.");
+        int speed = 59;
+        if (speed > 60 ) {
+            System.out.println("Если скорость " + speed + " км/ч., то Вам придется заплатить штраф.");
         } else {
-            System.out.println("Если у Вас другая скорость, узнайте о штрафах на сайте ГИБДД");
-        }
-        if (speed >= 81 && speed <= 100) {
-            System.out.println("Если Ваша скорость больше 80, но меньше 100, и равна " + speed + " км/ч., то Вам выпишут штраф 500 руб.");
-        } else {
-            System.out.println("Если у Вас другая скорость, узнайте о штрафах на сайте ГИБДД");
+            System.out.println("Если скорость " + speed + " км/ч., можно ездить спокойно.");
         }
         System.out.println("Задача 4");
-        int age = 75;
-        if (age > 0 && age < 2) {
-            System.out.println("Вы слишком маленький - лучше остаться дома.");
-        }
-        if (age > 2 && age <= 6) {
+        int age = 25;
+        if (age > 1 && age < 7) {
             System.out.println("Если возраст человека равен - " +age+ " то ему нужно ходить в детский сад.");
         }
-        if (age > 7 && age <= 17) {
+        if (age >6 && age < 18) {
             System.out.println("Если возраст человека равен - " +age+ " то ему нужно ходить в школу.");
         }
         if (age >= 18 && age <= 24) {
             System.out.println("Если возраст человека равен - " +age+ " то ему нужно ходить в университет.");
         }
-        if (age > 24 && age <= 99) {
-            System.out.println("В возрасте " + age + " лет можно работать.");
-        }
-        if (age >= 100) {
-            System.out.println("Вы слишком большой - лучше остаться дома.");
+        if (age > 24 ) {
+            System.out.println("Если возраст человека " + age + " ему нужно ходить на работу.");
+
+
         }
         System.out.println("Задача 5");
         int ageForCarousels = 15;
